@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# creating the directory .config 
+## mkdir -p ~/.config
+## cd  ~/.config
+# cloning the files
+## git clone (...)
+# entering in the Transl-Script directory
+# cd transl-script
+# executing the script in every terminal section
+## cat init >> ~/.bashrc  
+
+# installing Translate-Shell
+## cd ~/
+## git clone https://github.com/soimort/translate-shell
+## cd translate-shell/
+## make
+## sudo make install
+## sudo rm -r ~/translate-shell
+

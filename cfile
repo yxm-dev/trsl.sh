@@ -1,0 +1,34 @@
+#! /bin/bash
+
+# defining the array of uppercase languages names
+    Langname[0]="Portuguese"
+    Langname[1]="English"
+
+# defining the array of lowercase languages names
+    langname[0]="portuguese"
+    langname[1]="english"
+
+    lang[0]="pt"
+    lang[1]="en"
+
+# array of language indexes
+    for i in ${langname[@]}; do
+        ind_langname[${langname[$i]}]=$i
+    done
+    for i in ${Langname[@]}; do
+        ind_Langname[${Langname[$i]}]=$i
+    done
+    for i in ${!lang[@]}; do
+        if [[ "x" ==  "${lang[$i]}" ]]; then
+            ind_lang[$x]=$i
+        fi
+    done
+
+# declaring the arrays
+    declare -a lang
+    declare -a Lang
+    declare -a langname
+    declare -a Langname
+    declare -a ind_langname
+    declare -a ind_Langname
+
