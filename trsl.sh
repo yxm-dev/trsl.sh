@@ -4,7 +4,7 @@
     installdir="$HOME/.config/trsl.sh"
 # including data
     source $installdir/config
-    source $installdir/cfile
+    source $installdir/data
 
 # "transl" function
     function trsl() {
